@@ -23,7 +23,7 @@ Istio 提供了对整个服务网格的行为洞察和操作控制的能力，�
 
 ## 为什么使用 Istio？{#why-use-Istio}
 
-通过负载均衡、服务到服务的身份验证、监控等方法，Istio 可以轻松地创建一个已经部署了服务的网络，而服务的代码更改[很少](/zh/docs/tasks/observability/distributed-tracing/overview/#trace-context-propagation) 甚至无需更改。通过在整个环境中部署一个特殊的 sidecar 代理为服务添加 Istio 的支持，而代理会拦截微服务之间的所有网络通信，然后使用其控制平面的功能来配置和管理 Istio，这包括：
+使用 Istio 可以轻松地创建一个部署了服务的网络，使其具有负载均衡、服务到服务身份验证、监控等特性，而服务的代码更改[很少](/zh/docs/tasks/observability/distributed-tracing/overview/#trace-context-propagation) 甚至无需更改。通过在整个环境中部署一个特殊的 sidecar 代理为服务添加 Istio 的支持，而代理会拦截微服务之间的所有网络通信，然后使用其控制平面的功能来配置和管理 Istio，这包括：
 
 * 为 HTTP、gRPC、WebSocket 和 TCP 流量自动负载均衡。
 
@@ -71,7 +71,7 @@ Istio 还容许你创建自己的[策略适配器](/docs/tasks/policy-enforcemen
 
 ### 可观察性{#observability}
 
-Istio 健壮的追踪、监控和日志特性让您能够深入的了解服务网格部署。通过 Istio 的监控能力，可以真正的了解到服务的性能是如何影响上游和下游的；而它的定制Dashboard提供了对所有服务性能的可视化能力，并让您看到它如何影响其他进程。
+Istio 健壮的追踪、监控和日志特性让您能够深入的了解服务网格部署。通过 Istio 的监控能力，可以真正的了解到服务的性能是如何影响上游和下游的；而它的定制 Dashboard 提供了对所有服务性能的可视化能力，并让您看到它如何影响其他进程。
 
 Istio 的 Mixer 组件负责策略控制和遥测数据收集。它提供了后端抽象和中介，将一部分 Istio 与后端的基础设施实现细节隔离开来，并为运维人员提供了对网格与后端基础实施之间交互的细粒度控制。
 
