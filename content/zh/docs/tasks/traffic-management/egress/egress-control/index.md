@@ -1,6 +1,6 @@
 ---
-title: Accessing External Services
-description: Describes how to configure Istio to route traffic from services in the mesh to external services.
+title: 访问外部服务
+description: 描述如何配置 Istio 将流量从网格中的服务路由到外部服务。
 weight: 10
 aliases:
     - /zh/docs/tasks/egress.html
